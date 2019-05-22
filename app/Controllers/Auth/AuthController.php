@@ -14,6 +14,7 @@ class AuthController extends Controller
 	// Sign Up
 	 public function signUp($request, $response, $args)
 	 {
+		 header('Access-Control-Allow-Origin', '*');
 	 	if(!empty($request->getParam('name')) && !empty($request->getParam('lastname')) && !empty($request->getParam('email')) && !empty($request->getParam('password')))
 	 	{
 	 		$nbre = User::where('email', $request->getParam('email'))->count();
@@ -21,8 +22,7 @@ class AuthController extends Controller
 	 		{
 	 			$data = array('message' => 'Adresse email déja utilisé par une autre personne.');
 	 			return $response->withHeader('Content-Type', 'application/json')
-					->withHeader('Access-Control-Allow-Origin', '*')
-					->withJson($data, 401);
+					->withJson($data, 202);
 	 		}
 	 		else {
 		 		$action = User::create([
@@ -39,15 +39,13 @@ class AuthController extends Controller
 				 		 $data = array('message' => 'Une erreur est survenue lors de l\'inscription.');
 				 		}
 		 		return $response->withHeader('Content-Type', 'application/json')
-					->withHeader('Access-Control-Allow-Origin', '*')
-					->withJson($data, 200);
+					->withJson($data, 201);
 	 		}
 	 	}
 	 	else {
 	 		$data = array('message' => 'Un ou plusieurs champs sont vides');
 	 		return $response->withHeader('Content-Type', 'application/json')
-					->withHeader('Access-Control-Allow-Origin', '*')
-					->withJson($data, 301);
+					->withJson($data, 202);
 	 	}
 	 }
 
@@ -68,20 +66,17 @@ class AuthController extends Controller
 				$jwt = JWT::encode($token, $key);
 				$data = array('status' => 'Connexion reussit.', 'token' => $jwt);
 		 		return $response->withHeader('Content-Type', 'application/json')
-					->withHeader('Access-Control-Allow-Origin', '*')
 					->withJson($data, 200);
 
 		 	 } else {
 		 	 	$data = array('status' => 'Identifiant incorrect');
 		 		return $response->withHeader('Content-Type', 'application/json')
-					->withHeader('Access-Control-Allow-Origin', '*')
 					->withJson($data, 401);
 		 	 }
 		 }
 		 else {
 		 	$data = array('status' => 'Utilisateur introuvable');
 		 	return $response->withHeader('Content-Type', 'application/json')
-					->withHeader('Access-Control-Allow-Origin', '*')
 					->withJson($data, 301);
 		 }
 	 }
