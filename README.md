@@ -18,22 +18,6 @@ Une fois telecharger les fichier, rendez vous dans le repertoire de votre projet
 
 <b>3). Etape 3 :</b> Creation et configuration de la base de donnée
 
-Par defaul cette api utilise la base de donnée Mysql, le fichier de configuration se trouve dans le repertoire /configs/settings.php <br/>
+Par defaul cette api utilise la base de donnée Mysql, le fichier de configuration se trouve dans le repertoire <b>/configs/settings.php</b> <br/>
 
-<code>
-$settings = [ <br/>
-	'settings' => [ <br/>
-		'displayErrorDetails' => true, <br/>
-		'db' => [ <br/>
-			    'driver'    => 'mysql', <br/> 
-			    'host'      => 'localhost',<br/>
-			    'database'  => 'api_db',<br/>
-			    'username'  => 'root',<br/>
-			    'password'  => 'test123',<br/>
-			    'charset'   => 'utf8',<br/>
-			    'collation' => 'utf8_unicode_ci',<br/>
-			    'prefix'    => '',<br/>
-				]<br/>
-			] <br/>
-		];<br/>
-</code>
+
