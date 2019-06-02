@@ -20,6 +20,7 @@ Une fois telecharger les fichier, rendez vous dans le repertoire de votre projet
 
 Par defaul cette api utilise la base de donnée Mysql, le fichier de configuration se trouve dans le repertoire /configs/settings.php <br/>
 
+<code>
 $settings = [
 	'settings' => [
 		'displayErrorDetails' => true,
@@ -35,3 +36,4 @@ $settings = [
 				]
 			] 
 		];
+</code>
