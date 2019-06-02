@@ -22,7 +22,7 @@ Par defaut cette api utilise la base de donnée Mysql, le fichier de configurati
 
 <b>Schema de la base de donnée : </b> users(id INTEGER(11) PRIMARY KEY, name VARCHAR(255), lastname VARCHAR(255), email VARCHAR(255), password VARCHAR(255)).
 
-<h3>4). Etape 4 : Démarrage du serveur et test des endpoints</h3><br/>
+<h3>4). Etape 4 : Démarrage du serveur et test des endpoints</h3>
 Toutes les routes se trouvent dans le répertoire <b>routes/routes.php</b>. 
 Dans votre projet, demmarer le serveur interne de php avec la commande suivante : php -S localhost:8000 -t public. (Si le port 8000 n'est pas disponible, choisissez un autre).
 <h3>Routes</h3> 
