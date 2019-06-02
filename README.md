@@ -21,19 +21,19 @@ Une fois telecharger les fichier, rendez vous dans le repertoire de votre projet
 Par defaul cette api utilise la base de donnée Mysql, le fichier de configuration se trouve dans le repertoire /configs/settings.php <br/>
 
 <code>
-$settings = [
-	'settings' => [
-		'displayErrorDetails' => true,
-		'db' => [
-			    'driver'    => 'mysql',
-			    'host'      => 'localhost',
-			    'database'  => 'api_db',
-			    'username'  => 'root',
-			    'password'  => 'test123',
-			    'charset'   => 'utf8',
-			    'collation' => 'utf8_unicode_ci',
-			    'prefix'    => '',
-				]
-			] 
-		];
+$settings = [ <br/>
+	'settings' => [ <br/>
+		'displayErrorDetails' => true, <br/>
+		'db' => [ <br/>
+			    'driver'    => 'mysql', <br/> 
+			    'host'      => 'localhost',<br/>
+			    'database'  => 'api_db',<br/>
+			    'username'  => 'root',<br/>
+			    'password'  => 'test123',<br/>
+			    'charset'   => 'utf8',<br/>
+			    'collation' => 'utf8_unicode_ci',<br/>
+			    'prefix'    => '',<br/>
+				]<br/>
+			] <br/>
+		];<br/>
 </code>
