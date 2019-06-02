@@ -29,4 +29,4 @@ Dans votre projet, demmarer le serveur interne de php avec la commande suivante 
 -- https://localhost:8080/api/v2/auth/signin <br/>
 -- https://localhost:8080/api/v2/auth/signup <br/>
 <hr>
-Si cette api vous a aidé n'hesittez pas à partager avec votre entourage, vous pouvez également contribuer à ce projet et s'il y'a des remarques ou des suggestions je suis à votre ecoute merci d'avance. Intégrez vous rapidement dans le monde su web avec moi grace au tutos insensifs disponible sur mon site https://dewagon.com.
+Si cette api vous a aidé n'hesittez pas à partager avec votre entourage, vous pouvez également contribuer à ce projet et s'il y'a des remarques ou des suggestions je suis à votre ecoute merci d'avance. <br/> Intégrez vous rapidement dans le monde du web avec moi  sur le site https://dewagon.com.
