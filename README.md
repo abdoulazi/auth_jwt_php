@@ -15,3 +15,23 @@ Créer un repertoire dans votre machine et telecharger ou cloner le projet. pour
 Une fois telecharger les fichier, rendez vous dans le repertoire de votre projet et installer toutes les depenadnces de l'api avec la commande suivante : conmposer install
 
 <b>Composer</b> est un logiciel gestionnaire de dépendances libre écrit en PHP. Il permet à ses utilisateurs de déclarer et d'installer les bibliothèques dont le projet principal a besoin. Telecharger et installer composer si c'est pas déja fait https://getcomposer.org/ .
+
+<b>3). Etape 3 :</b> Creation et configuration de la base de donnée
+
+Par defaul cette api utilise la base de donnée Mysql, le fichier de configuration se trouve dans le repertoire /configs/settings.php <br/>
+
+$settings = [
+	'settings' => [
+		'displayErrorDetails' => true,
+		'db' => [
+			    'driver'    => 'mysql',
+			    'host'      => 'localhost',
+			    'database'  => 'api_db',
+			    'username'  => 'root',
+			    'password'  => 'test123',
+			    'charset'   => 'utf8',
+			    'collation' => 'utf8_unicode_ci',
+			    'prefix'    => '',
+				]
+			] 
+		];
