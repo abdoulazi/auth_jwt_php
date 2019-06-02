@@ -25,7 +25,6 @@ Par defaut cette api utilise la base de donnée Mysql, le fichier de configurati
 <b>3). Etape 4 :</b> Demarrage du serveur et test des endpoints<br/>
 Toutes les routes se trouvent dans le répertoire <b>routes/routes.php</b>. <br/>
 Dans votre projet, demmarer le serveur interne de php avec la commande suivante : php -S localhost:8000 -t public. (Si le port 8000 n'est pas disponible, choisissez un autre).<br>
-<h3>Routes</h3>
-<br/>
+<h3>Routes</h3> 
 -- https://localhost:8080/api/v2/auth/signin <br/>
 -- https://localhost:8080/api/v2/auth/signup <br/>
