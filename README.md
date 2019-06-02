@@ -12,3 +12,8 @@ Suivez les etapes suivantes pour installer et configurer cette api.
 Créer un repertoire dans votre machine et telecharger ou cloner le projet. pour faire le clone, dans votre terminal ou invite de commande tapper git clone https://github.com/abdoulazi/rest-api-authentification-php-jwt.git .
 
 <b>2). Etape 2 :</b>  Installation des depensences<br><br>
+
+Une fois telecharger les fichier, rendez vous dans le repertoire de votre projet et installer toutes les depenadnces de l'api avec la commande suivante : conmposer install
+
+<b>Composer</b> est un logiciel gestionnaire de dépendances libre écrit en PHP. Il permet à ses utilisateurs de déclarer et d'installer les bibliothèques dont le projet principal a besoin. <br>
+Telecharger et installer composer si c'est pas déja fait https://getcomposer.org/ .
