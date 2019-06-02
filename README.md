@@ -28,5 +28,7 @@ Dans votre projet, demmarer le serveur interne de php avec la commande suivante 
 <h3>Routes</h3> 
 -- https://localhost:8080/api/v2/auth/signin <br/>
 -- https://localhost:8080/api/v2/auth/signup <br/>
+Pour tester ces routes, utilisez par exemple le logiciel postman que je trouve très sympa :). Télecharger ce logiciel sur le
+site web officiel de postman https://www.getpostman.com/
 <hr>
 Si cette api vous a aidé n'hesittez pas à partager avec votre entourage, vous pouvez également contribuer à ce projet et s'il y'a des remarques ou des suggestions je suis à votre ecoute merci d'avance. <br/> <br/> Intégrez vous rapidement dans le monde du web avec moi  sur le site https://dewagon.com.
