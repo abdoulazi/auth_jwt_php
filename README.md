@@ -8,5 +8,5 @@ JWT : JSON Web Token est un standard ouvert (RFC 7519) qui définit un moyen com
 
 Suivez les etapes suivantes pour installer et configurer cette api.
 
-1). Etape 1
+1). Etape 1 <br>
   Créer un repertoire dans votre machine et telecharger ou cloner le projet 
