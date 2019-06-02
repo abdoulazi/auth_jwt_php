@@ -7,3 +7,6 @@ Slim framework : Slim est un micro-framework PHP qui vous permet d’écrire rap
 JWT : JSON Web Token est un standard ouvert (RFC 7519) qui définit un moyen compact et autonome de transmettre des informations en toute sécurité entre les parties sous forme d'objet JSON. pour plus d'information, rendez vous sur le site officiel de JWT https://jwt.io 
 
 Suivez les etapes suivantes pour installer et configurer cette api.
+
+1). Etape 1
+  Créer un repertoire dans votre machine et telecharger ou cloner le projet 
