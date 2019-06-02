@@ -25,9 +25,9 @@ Par defaut cette api utilise la base de donnée Mysql, le fichier de configurati
 <b>3). Etape 3 :</b> Endpoints disponibles
 Toutes les routes se trouve dans le répertoire <b>routes/routes.php</b>.
 ------------------------------------------------------------------------------------------------------------------------
-|     Routes                                      Objet request                                Objet response          |
+|     Routes                                |      Objet request                      |          Objet response        |
 |-----------------------------------------------------------------------------------------------------------------------
-| https://localhost:8000/api/v2/auth/signin       { email: "**", password "**"}                    {jwt: "********"}   |
+| https://localhost:8000/api/v2/auth/signin |      { email: "**", password "**"}      |              {jwt: "********"} |
 |
 
 |
