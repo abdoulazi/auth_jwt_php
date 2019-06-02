@@ -18,6 +18,8 @@ Une fois telecharger les fichier, rendez vous dans le repertoire de votre projet
 
 <b>3). Etape 3 :</b> Creation et configuration de la base de donnée
 
-Par defaut cette api utilise la base de donnée Mysql, le fichier de configuration se trouve dans le repertoire <b>/configs/settings.php</b> rendez vous et addapter cette configuration à environement de developpement.<br/>
+Par defaut cette api utilise la base de donnée Mysql, le fichier de configuration se trouve dans le repertoire <b>/configs/settings.php</b> rendez vous et addapter cette configuration à votre environement de developpement.<br/>
+
+<b>Schema de la base de donnée : </b> users(id INTEGER(11) PRIMARY KEY, name VARCHAR(255), lastname VARCHAR(255), email VARCHAR(255), password VARCHAR(255)).
 
 
