@@ -28,3 +28,5 @@ Dans votre projet, demmarer le serveur interne de php avec la commande suivante 
 <h3>Routes</h3> 
 -- https://localhost:8080/api/v2/auth/signin <br/>
 -- https://localhost:8080/api/v2/auth/signup <br/>
+<hr>
+Si cette api vous a aidé n'hesittez pas à partager avec votre entourage, vous pouvez egalement contribuer à ce projet et s'il y'a des remarques ou des suggestions merci d'avance. https://dewagon.com
