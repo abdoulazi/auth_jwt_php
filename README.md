@@ -23,6 +23,6 @@ Par defaut cette api utilise la base de donnée Mysql, le fichier de configurati
 <b>Schema de la base de donnée : </b> users(id INTEGER(11) PRIMARY KEY, name VARCHAR(255), lastname VARCHAR(255), email VARCHAR(255), password VARCHAR(255)).
 
 <b>3). Etape 3 :</b> Endpoints disponibles
-Toutes les routes se trouvent dans le répertoire <b>routes/routes.php</b>.
--- /api/v2/auth/signin <br/>
--- /api/v2/auth/signup <br/>
+Toutes les routes se trouvent dans le répertoire <b>routes/routes.php</b>. <br/>
+-- https://localhost:8080/api/v2/auth/signin <br/>
+-- https://localhost:8080/api/v2/auth/signup <br/>
