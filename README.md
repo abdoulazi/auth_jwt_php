@@ -8,10 +8,10 @@ Une api très simple basée sur Slim framework qui vous permet de connecter vos 
 
 Suivez les etapes suivantes pour installer et configurer cette api.
 
-<h3>1). Etape 1 :  Téléchargement du projet </h3><br>
+<h3>1). Etape 1 :  Téléchargement du projet </h3>
 Créer un repertoire dans votre machine et telecharger ou cloner le projet. pour faire le clone, dans votre terminal ou invite de commande tapper git clone https://github.com/abdoulazi/rest-api-authentification-php-jwt.git .
 
-<h3>2). Etape 2 : Installation des depensences</h3><br>
+<h3>2). Etape 2 : Installation des depensences</h3>
 Une fois telecharger les fichier, rendez vous dans le repertoire de votre projet et installer toutes les depenadnces de l'api avec la commande suivante : conmposer install
 
 <b>Composer</b> est un logiciel gestionnaire de dépendances libre écrit en PHP. Il permet à ses utilisateurs de déclarer et d'installer les bibliothèques dont le projet principal a besoin. Telecharger et installer composer si c'est pas déja fait https://getcomposer.org/ .
