@@ -8,5 +8,7 @@ Une api très simple basée sur Slim framework qui vous permet de connecter vos 
 
 Suivez les etapes suivantes pour installer et configurer cette api.
 
-<b>1). Etape 1</b> <br><br>
-Créer un repertoire dans votre machine et telecharger ou cloner le projet. pour faire le clone, dans votre terminal ou invite de commande tapper git clone https://github.com/abdoulazi/rest-api-authentification-php-jwt.git
+<b>1). Etape 1</b> Téléchargement du projet <br><br>
+Créer un repertoire dans votre machine et telecharger ou cloner le projet. pour faire le clone, dans votre terminal ou invite de commande tapper git clone https://github.com/abdoulazi/rest-api-authentification-php-jwt.git .
+
+<b>2). Etape 2</b>  Installation des depensences<br><br>
